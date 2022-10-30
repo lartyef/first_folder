@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    min-height: 200vh;
+}
+.outer-container {
+border: 3px dashed black;
+width: 75vw;
+height: 85vw;
+margin: 40px auto;
+}
+.inner-container {
+    border: 2px dashed black;
+    width: 40vw;
+    height: 50vw;
+    margin: 200px auto;
+    }
+   .box {
+        width: 150px;
+        height: 150px;
+     color: white;
+     padding: 1rem;
+        }

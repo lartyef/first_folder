@@ -1,0 +1,54 @@
+body {
+    background-color: yellow;
+  }
+@media(max-width: 600px) {
+    body {
+      background-color: lightblue;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+
+    background-color: red;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  @media only screen and (min-width: 912px) {
+    body {
+      background-color: green;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+  }
+
+}
+.container {
+    column-count: 4;
+    column-width: 25px;
+    column-rule: 4px solid blue;
+    column-gap: 3rem;
+}
+.container p {
+    margin-top: 0;
+}
+.container h2 {
+    background-color: aliceblue;
+    color: blueviolet;
+    break-inside: avoid;
+}
+.container .boy {
+    background-color: brown;
+    color: green;
+    font-size: 3em;
+    text-align: center;
+    column-span: all;
+    margin-top: 2rem;
+}
+.nowrap {
+  white-space: nowrap;
+}
+a {
+  text-decoration: none;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}

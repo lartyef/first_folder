@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+    text-align: right;
+    background-color: brown;
+    padding: 0.1em;
+    font-size: 2em;
+}
+li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+li {
+    display: inline-block;
+    margin: 0.5rem;
+}
+li a:visited {
+    color: aqua;
+}
+li a:hover {
+    color: orange;
+}
