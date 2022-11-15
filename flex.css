@@ -5,13 +5,13 @@
 }
 body {
     font-family: sans-serif;
-    min-height: 100vh;
+    height: 100vh;
     padding: 20px;
 }
 .container {
-    max-width: 800px;
-    min-height: 400px;
-   margin-inline: auto;
+    width: 800px;
+    height: 400px;
+   margin: auto;
    border: 1px solid black;
 }
 .box {
