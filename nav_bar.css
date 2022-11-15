@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topnav {
+    text-align: center;
+    margin-inline: 20px;
+    padding: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.left {
+    color: blueviolet;
+    font-size: 20px;
+    float: left;
+    margin: 20px;
+    font-weight: bold;
+}
+.right {
+    background-color: rgb(88, 28, 53);
+    color: white;
+    float: right;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 0.4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: brown;
+}
